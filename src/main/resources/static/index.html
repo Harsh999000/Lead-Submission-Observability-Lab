@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Submission Form</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <div class="nav-left">
+            <a href="/index.html" class="project-title">
+                High Level Project
+            </a>
+        </div>
+        <nav class="nav-right">
+            <a href="/index.html">Home</a>
+            <a href="/dashboard.html">Dashboard</a>
+            <a href="/logs.html">Logs</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="form-card">
+            <h1>Lead Submission</h1>
+            <p class="subtitle">
+                Please visit dashboard page to check AI based summary derived from lead submission logs<br>
+                Using Ollama with the LLaMA 3.1 model — specifically the 8B parameter variant.<br><br>
+                Simulates lead generation from various sources and endpoints
+            </p>
+
+            <!-- New User Registration Link -->
+            <div class="new-user-link">
+                <span>New user?</span>
+                <a href="/register.html">
+                    Create a user id and password and check it out.
+                </a>
+            </div>
+
+            <form id="leadForm">
+
+                <!-- Authentication -->
+                <fieldset>
+                    <legend>User Authentication</legend>
+
+                    <label>
+                        User Email
+                        <input type="email" id="userEmail" required placeholder="user@company.com">
+                    </label>
+
+                    <label>
+                        Password
+                        <input type="password" id="userPassword" required>
+                    </label>
+                </fieldset>
+
+                <!-- Lead Details -->
+                <fieldset>
+                    <legend>Lead Details</legend>
+
+                    <label>
+                        Lead Name
+                        <input type="text" id="leadName" required placeholder="John Doe">
+                    </label>
+
+                    <label>
+                        Lead Email
+                        <input type="email" id="leadEmail" required placeholder="john@example.com">
+                    </label>
+
+                    <label>
+                        Source
+                        <select id="source" required>
+                            <option value="">Select source</option>
+                            <option value="WEBSITE_FORM">Website Form</option>
+                            <option value="FUNNEL_PAGE">Funnel Page</option>
+                            <option value="QUIZ">Quiz</option>
+                            <option value="QR_CODE">QR Code</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Final Page
+                        <input type="text" id="finalPage" placeholder="/checkout">
+                    </label>
+                </fieldset>
+
+                <button type="submit">Submit Lead</button>
+
+                <!-- Response Area -->
+                <div id="responseBox" class="response hidden"></div>
+
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
