@@ -3,6 +3,8 @@ package com.leadsubmission.observability.analysis.service;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.leadsubmission.observability.analysis.dto.DailyAnalysisReport;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.net.URI;
@@ -29,8 +31,11 @@ import java.util.Map;
 public class AiAnalysisService {
 
     private static final ZoneId IST_ZONE = ZoneId.of("Asia/Kolkata");
-    private static final String OLLAMA_URL = "http://localhost:11434/api/generate";
-    private static final String MODEL_NAME = "mistral";
+    @Value("${ai.ollama.url:http://localhost:11434/api/generate}")
+    private String ollamaUrl;
+
+    @Value("${ai.ollama.model:mistral}")
+    private String modelName;
 
     private final HttpClient httpClient;
     private final ObjectMapper objectMapper;
@@ -45,7 +50,7 @@ public class AiAnalysisService {
         try {
             // ---- Build request payload ----
             Map<String, Object> payload = Map.of(
-                    "model", MODEL_NAME,
+                    "model", modelName,
                     "prompt", prompt,
                     "stream", false
             );
@@ -53,7 +58,7 @@ public class AiAnalysisService {
             String requestBody = objectMapper.writeValueAsString(payload);
 
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(OLLAMA_URL))
+                    .uri(URI.create(ollamaUrl))
                     .header("Content-Type", "application/json")
                     .POST(HttpRequest.BodyPublishers.ofString(requestBody))
                     .build();
