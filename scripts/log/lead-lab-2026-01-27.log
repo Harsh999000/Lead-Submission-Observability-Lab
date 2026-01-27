@@ -1,0 +1,792 @@
+======================================
+STATUS CHECK - Tuesday 27 January 2026 05:31:51 AM IST
+======================================
+STATUS: RUNNING (PID 42293)
+======================================
+STOP SERVER - Tuesday 27 January 2026 05:32:03 AM IST
+======================================
+Stopping server PID 42293
+Server stopped
+======================================
+STATUS CHECK - Tuesday 27 January 2026 05:32:16 AM IST
+======================================
+STATUS: NOT RUNNING
+======================================
+START SERVER - Tuesday 27 January 2026 05:32:50 AM IST
+Profile: local
+======================================
+Server started with PID 42428
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.leadsubmission.observability:lead-submission-observability-lab[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding Lead Submission Observability Lab 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 11 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /web2/Lead-Submission-Observability-Lab/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+======================================
+STATUS CHECK - Tuesday 27 January 2026 05:32:56 AM IST
+======================================
+STATUS: RUNNING (PID 42428)
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-01-27T05:32:58.468+05:30  INFO 42478 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Starting LeadSubmissionObservabilityLabApplication using Java 17.0.18 with PID 42478 (/web2/Lead-Submission-Observability-Lab/target/classes started by harsh in /web2/Lead-Submission-Observability-Lab)
+2026-01-27T05:32:58.475+05:30  INFO 42478 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : The following 1 profile is active: "local"
+2026-01-27T05:32:59.958+05:30  INFO 42478 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T05:33:00.101+05:30  INFO 42478 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 5 JPA repository interfaces.
+2026-01-27T05:33:01.111+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8110 (http)
+2026-01-27T05:33:01.133+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T05:33:01.134+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-01-27T05:33:01.232+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-27T05:33:01.234+05:30  INFO 42478 --- [lead-submission-lab] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2637 ms
+2026-01-27T05:33:01.533+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-27T05:33:01.617+05:30  INFO 42478 --- [lead-submission-lab] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-01-27T05:33:01.671+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-27T05:33:02.046+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T05:33:02.089+05:30  INFO 42478 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T05:33:02.693+05:30  INFO 42478 --- [lead-submission-lab] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7606bd03
+2026-01-27T05:33:02.697+05:30  INFO 42478 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T05:33:02.786+05:30  WARN 42478 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-27T05:33:02.787+05:30  WARN 42478 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-01-27T05:33:04.586+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T05:33:04.591+05:30  INFO 42478 --- [lead-submission-lab] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T05:33:05.103+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-27T05:33:06.994+05:30  WARN 42478 --- [lead-submission-lab] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T05:33:07.039+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-27T05:33:07.715+05:30  INFO 42478 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8110 (http) with context path ''
+2026-01-27T05:33:07.740+05:30  INFO 42478 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Started LeadSubmissionObservabilityLabApplication in 10.073 seconds (process running for 10.719)
+======================================
+STATUS CHECK - Tuesday 27 January 2026 05:45:10 AM IST
+======================================
+STATUS: RUNNING (PID 42428)
+======================================
+START NGROK - Tuesday 27 January 2026 05:45:21 AM IST
+Port: 8110
+======================================
+Ngrok started with PID 42554
+Ngrok public URL: https://4d5bd0ba6c83.ngrok-free.app
+======================================
+NGROK STATUS CHECK - Tuesday 27 January 2026 05:51:59 AM IST
+======================================
+NGROK STATUS: RUNNING (PID 42554)
+NGROK PUBLIC URL: https://4d5bd0ba6c83.ngrok-free.app
+======================================
+STOP NGROK - Tuesday 27 January 2026 05:52:08 AM IST
+======================================
+Stopping ngrok (PID 42554)...
+Ngrok stopped successfully
+2026-01-27T05:58:42.534+05:30  INFO 42478 --- [lead-submission-lab] [nio-8110-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T05:58:42.534+05:30  INFO 42478 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T05:58:42.536+05:30  INFO 42478 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+======================================
+STOP SERVER - Tuesday 27 January 2026 05:59:00 AM IST
+======================================
+Stopping server PID 42428
+[0m[0m2026-01-27T05:59:00.288+05:30  INFO 42478 --- [lead-submission-lab] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T05:59:00.293+05:30  INFO 42478 --- [lead-submission-lab] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T05:59:00.311+05:30  INFO 42478 --- [lead-submission-lab] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+Server stopped
+===========================================
+START ALL SERVICES - Tuesday 27 January 2026 06:08:52 AM IST
+===========================================
+Starting server...
+======================================
+START SERVER - Tuesday 27 January 2026 06:08:52 AM IST
+Profile: local
+======================================
+Server started with PID 42698
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.leadsubmission.observability:lead-submission-observability-lab[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding Lead Submission Observability Lab 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 11 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 57 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /web2/Lead-Submission-Observability-Lab/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-01-27T06:09:05.051+05:30  INFO 42745 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Starting LeadSubmissionObservabilityLabApplication using Java 17.0.18 with PID 42745 (/web2/Lead-Submission-Observability-Lab/target/classes started by harsh in /web2/Lead-Submission-Observability-Lab)
+2026-01-27T06:09:05.058+05:30  INFO 42745 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : The following 1 profile is active: "local"
+2026-01-27T06:09:06.552+05:30  INFO 42745 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T06:09:06.699+05:30  INFO 42745 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 5 JPA repository interfaces.
+2026-01-27T06:09:07.705+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8110 (http)
+2026-01-27T06:09:07.727+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T06:09:07.727+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-01-27T06:09:07.851+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-27T06:09:07.853+05:30  INFO 42745 --- [lead-submission-lab] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2667 ms
+2026-01-27T06:09:08.134+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-27T06:09:08.220+05:30  INFO 42745 --- [lead-submission-lab] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-01-27T06:09:08.274+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-27T06:09:08.647+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T06:09:08.690+05:30  INFO 42745 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T06:09:09.307+05:30  INFO 42745 --- [lead-submission-lab] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b1a30e5
+2026-01-27T06:09:09.311+05:30  INFO 42745 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T06:09:09.403+05:30  WARN 42745 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-27T06:09:09.404+05:30  WARN 42745 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-01-27T06:09:11.214+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T06:09:11.220+05:30  INFO 42745 --- [lead-submission-lab] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T06:09:11.735+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+Starting ngrok...
+===========================================
+Starting ngrok for Lead Submission Lab
+Date: Tuesday 27 January 2026 06:09:12 AM IST
+Port: 8110
+===========================================
+Ngrok started in background (PID: 42794)
+2026-01-27T06:09:13.649+05:30  WARN 42745 --- [lead-submission-lab] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T06:09:13.694+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-27T06:09:14.374+05:30  INFO 42745 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8110 (http) with context path ''
+2026-01-27T06:09:14.397+05:30  INFO 42745 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Started LeadSubmissionObservabilityLabApplication in 10.161 seconds (process running for 10.806)
+Ngrok public URL:
+https://d6d0bbbbc5d4.ngrok-free.app
+All services started.
+2026-01-27T06:09:26.900+05:30  INFO 42745 --- [lead-submission-lab] [nio-8110-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-27T06:09:26.900+05:30  INFO 42745 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-27T06:09:26.902+05:30  INFO 42745 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-27T06:22:26.695+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-01-27T06:22:26.696+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-01-27T06:22:26.743+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-01-27T06:22:26.758+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-01-27T06:22:26.773+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-01-27T06:22:26.786+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T06:22:26.800+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T06:22:27.490+05:30 DEBUG 42745 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+2026-01-27T06:22:27.490+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-01-27T06:22:27.491+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+======================================
+STATUS CHECK - Tuesday 27 January 2026 06:31:40 AM IST
+======================================
+STATUS: RUNNING (PID 42698)
+===========================================
+STATUS CLOUDFLARE TUNNEL - Tuesday 27 January 2026 06:31:49 AM IST
+===========================================
+Cloudflare status: NOT RUNNING (no PID file)
+===========================================
+START CLOUDFLARE QUICK TUNNEL - Tuesday 27 January 2026 06:32:04 AM IST
+Port: 8110
+===========================================
+Cloudflare tunnel started in background (PID: 43385)
+2026-01-27T01:02:05Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-01-27T01:02:05Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-01-27T01:02:09Z INF +--------------------------------------------------------------------------------------------+
+2026-01-27T01:02:09Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-01-27T01:02:09Z INF |  https://enable-hop-tigers-choices.trycloudflare.com                                       |
+2026-01-27T01:02:09Z INF +--------------------------------------------------------------------------------------------+
+2026-01-27T01:02:09Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-01-27T01:02:09Z INF Version 2026.1.1 (Checksum 0c3de409287cc60264cd59a285c434a243ec6d1d79ff39dc8d36b716f9dda7ef)
+2026-01-27T01:02:09Z INF GOOS: linux, GOVersion: go1.24.11, GoArch: amd64
+2026-01-27T01:02:09Z INF Settings: map[ha-connections:1 protocol:quic url:http://localhost:8110]
+2026-01-27T01:02:09Z INF cloudflared will not automatically update if installed by a package manager.
+2026-01-27T01:02:09Z INF Generated Connector ID: 9d31a992-2521-4ed4-9990-5271db74f5a0
+2026-01-27T01:02:09Z INF Initial protocol quic
+2026-01-27T01:02:09Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-01-27T01:02:09Z INF ICMP proxy will use fd01::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-01-27T01:02:09Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1000 is not between ping group 1 to 0"
+2026-01-27T01:02:09Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+Cloudflare public URL:
+https://enable-hop-tigers-choices.trycloudflare.com
+2026-01-27T01:02:09Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-01-27T01:02:09Z INF ICMP proxy will use fd01::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-01-27T01:02:09Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-01-27T01:02:09Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026/01/27 06:32:09 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-01-27T01:02:10Z INF Registered tunnel connection connIndex=0 connection=3c1367b5-2511-4e78-bcd4-78f1133be0fa event=0 ip=198.41.192.37 location=blr03 protocol=quic
+2026-01-27T06:32:22.456+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-01-27T06:32:22.457+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-01-27T06:32:22.472+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-01-27T06:32:22.488+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-01-27T06:32:22.499+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-01-27T06:32:22.505+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T06:32:22.513+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T06:32:27.157+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-01-27T06:32:27.157+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+2026-01-27T06:32:27.163+05:30 DEBUG 42745 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+===========================================
+STATUS CLOUDFLARE TUNNEL - Tuesday 27 January 2026 06:32:53 AM IST
+===========================================
+Cloudflare status: RUNNING (PID 43385)
+Public URL: https://enable-hop-tigers-choices.trycloudflare.com
+===========================================
+STOP CLOUDFLARE TUNNEL - Tuesday 27 January 2026 06:33:09 AM IST
+===========================================
+Stopping Cloudflare tunnel (PID 43385)
+2026-01-27T01:03:09Z INF Initiating graceful shutdown due to signal terminated ...
+2026-01-27T01:03:09Z ERR failed to run the datagram handler error="Application error 0x0 (remote)" connIndex=0 event=0 ip=198.41.192.37
+2026-01-27T01:03:09Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-01-27T01:03:09Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-01-27T01:03:09Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-01-27T01:03:09Z ERR Connection terminated connIndex=0
+2026-01-27T01:03:09Z ERR no more connections active and exiting
+2026-01-27T01:03:09Z INF Tunnel server stopped
+2026-01-27T01:03:09Z INF Metrics server stopped
+Cloudflare tunnel stopped
+======================================
+STOP SERVER - Tuesday 27 January 2026 06:33:19 AM IST
+======================================
+Stopping server PID 42698
+[0m[0m2026-01-27T06:33:19.587+05:30  INFO 42745 --- [lead-submission-lab] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-27T06:33:19.591+05:30  INFO 42745 --- [lead-submission-lab] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-27T06:33:19.608+05:30  INFO 42745 --- [lead-submission-lab] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+Server stopped
+===========================================
+START ALL SERVICES - Tuesday 27 January 2026 06:33:59 AM IST
+===========================================
+Starting server...
+======================================
+START SERVER - Tuesday 27 January 2026 06:33:59 AM IST
+Profile: local
+======================================
+Server started with PID 43481
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.leadsubmission.observability:lead-submission-observability-lab[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding Lead Submission Observability Lab 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 11 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :input tree
+[[1;34mINFO[m] Compiling 56 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /web2/Lead-Submission-Observability-Lab/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-01-27T06:34:12.846+05:30  INFO 43527 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Starting LeadSubmissionObservabilityLabApplication using Java 17.0.18 with PID 43527 (/web2/Lead-Submission-Observability-Lab/target/classes started by harsh in /web2/Lead-Submission-Observability-Lab)
+2026-01-27T06:34:12.853+05:30  INFO 43527 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : The following 1 profile is active: "local"
+2026-01-27T06:34:14.339+05:30  INFO 43527 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-27T06:34:14.480+05:30  INFO 43527 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 5 JPA repository interfaces.
+2026-01-27T06:34:15.503+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8110 (http)
+2026-01-27T06:34:15.524+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-27T06:34:15.525+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-01-27T06:34:15.623+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-27T06:34:15.625+05:30  INFO 43527 --- [lead-submission-lab] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2643 ms
+2026-01-27T06:34:15.923+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-27T06:34:16.009+05:30  INFO 43527 --- [lead-submission-lab] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-01-27T06:34:16.063+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-27T06:34:16.434+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-27T06:34:16.478+05:30  INFO 43527 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-27T06:34:17.086+05:30  INFO 43527 --- [lead-submission-lab] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fe8f2ae
+2026-01-27T06:34:17.090+05:30  INFO 43527 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-27T06:34:17.180+05:30  WARN 43527 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-27T06:34:17.182+05:30  WARN 43527 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-01-27T06:34:19.003+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-27T06:34:19.009+05:30  INFO 43527 --- [lead-submission-lab] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+Starting Cloudflare tunnel...
+===========================================
+START CLOUDFLARE QUICK TUNNEL - Tuesday 27 January 2026 06:34:19 AM IST
+Port: 8110
+===========================================
+2026-01-27T06:34:19.540+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+Cloudflare tunnel started in background (PID: 43574)
+2026-01-27T01:04:20Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-01-27T01:04:20Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-01-27T06:34:21.473+05:30  WARN 43527 --- [lead-submission-lab] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-27T06:34:21.520+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-27T06:34:22.192+05:30  INFO 43527 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8110 (http) with context path ''
+2026-01-27T06:34:22.216+05:30  INFO 43527 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Started LeadSubmissionObservabilityLabApplication in 10.186 seconds (process running for 11.127)
+Cloudflare public URL:
+https://enable-hop-tigers-choices.trycloudflare.com
+All services started.
+2026-01-27T01:04:24Z INF +--------------------------------------------------------------------------------------------+
+2026-01-27T01:04:24Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-01-27T01:04:24Z INF |  https://item-gdp-domains-blank.trycloudflare.com                                          |
+2026-01-27T01:04:24Z INF +--------------------------------------------------------------------------------------------+
+2026-01-27T01:04:24Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-01-27T01:04:24Z INF Version 2026.1.1 (Checksum 0c3de409287cc60264cd59a285c434a243ec6d1d79ff39dc8d36b716f9dda7ef)
+2026-01-27T01:04:24Z INF GOOS: linux, GOVersion: go1.24.11, GoArch: amd64
+2026-01-27T01:04:24Z INF Settings: map[ha-connections:1 protocol:quic url:http://localhost:8110]
+2026-01-27T01:04:24Z INF cloudflared will not automatically update if installed by a package manager.
+2026-01-27T01:04:24Z INF Generated Connector ID: 701e6129-6ebc-4d22-89cd-07cf4eafcf69
+2026-01-27T01:04:24Z INF Initial protocol quic
+2026-01-27T01:04:24Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-01-27T01:04:24Z INF ICMP proxy will use fd01::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-01-27T01:04:24Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1000 is not between ping group 1 to 0"
+2026-01-27T01:04:24Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026-01-27T01:04:24Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-01-27T01:04:24Z INF ICMP proxy will use fd01::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-01-27T01:04:24Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-01-27T01:04:24Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026/01/27 06:34:24 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-01-27T01:04:24Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:24Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:24Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:24Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:26Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:26Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:26Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:26Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:26Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:27Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:27Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:27Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:27Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:27Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:28Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:28Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:28Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:28Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:38Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:38Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:38Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:38Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:38Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:49Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-01-27T01:04:50Z INF Registered tunnel connection connIndex=0 connection=2f5bc90e-bfb3-4c44-89e9-445e2ae0bdd7 event=0 ip=198.41.192.57 location=blr03 protocol=quic
