@@ -189,7 +189,7 @@ function renderDailyTrendChart(data) {
     const maxValue = Math.max(
         ...successData,
         ...failureData,
-        1 // safety floor
+        1
     );
 
     if (dailyTrendChart) {
@@ -271,7 +271,15 @@ function resetAnalysisUI() {
 function showLoadingState() {
     const summaryEl = document.getElementById("analysisSummary");
     if (summaryEl) {
-        summaryEl.innerHTML = "<p><em>Analyzing data…</em></p>";
+        summaryEl.innerHTML = `
+            <div class="analysis-loading">
+                <div class="spinner"></div>
+                <p><strong>Analyzing…</strong></p>
+                <p class="analysis-hint">
+                    This can take up to 1 minute. Please wait.
+                </p>
+            </div>
+        `;
     }
 }
 

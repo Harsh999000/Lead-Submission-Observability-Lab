@@ -46,7 +46,7 @@ public class AiAnalysisService {
 
     public AiAnalysisService() {
         this.httpClient = HttpClient.newBuilder()
-                .connectTimeout(Duration.ofSeconds(5))   // hard limit
+                .connectTimeout(Duration.ofSeconds(60))   // hard limit
                 .build();
 
         this.objectMapper = new ObjectMapper();

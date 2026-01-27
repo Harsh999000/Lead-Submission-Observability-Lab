@@ -1,6 +1,5 @@
 /* ---------- Dashboard Page Styles ---------- */
 
-/* Section wrapper */
 .dashboard {
     max-width: 1200px;
     margin-left: auto;
@@ -15,7 +14,7 @@
 }
 
 .dashboard-header h1 {
-    font-size: 1.6rem;          /* same scale as logs headings */
+    font-size: 1.6rem;
     margin-bottom: 0.5rem;
 }
 
@@ -33,7 +32,6 @@
     margin-bottom: 2.5rem;
 }
 
-/* Metric cards follow logs/card style */
 .metric-card {
     background: #ffffff;
     border-radius: 8px;
@@ -76,7 +74,7 @@
 }
 
 .analytics-box h2 {
-    font-size: 1rem;        /* matches logs section headers */
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
@@ -87,15 +85,44 @@
     line-height: 1.4;
 }
 
+/* ---------- Analysis Loading State ---------- */
+
+.analysis-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.analysis-hint {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.spinner {
+    width: 28px;
+    height: 28px;
+    border: 3px solid #ddd;
+    border-top: 3px solid #333;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-bottom: 0.75rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 /* ---------- Chart ---------- */
 
-/* Container that bounds the chart height */
 .analytics-box canvas {
     width: 100% !important;
     height: 100% !important;
 }
 
-/* Explicit chart container height to stop infinite resize */
 .analytics-box:has(canvas) {
     height: 320px;
     max-height: 320px;
