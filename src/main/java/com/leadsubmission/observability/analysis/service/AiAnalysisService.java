@@ -3,7 +3,8 @@ package com.leadsubmission.observability.analysis.service;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.leadsubmission.observability.analysis.dto.DailyAnalysisReport;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -11,27 +12,30 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Map;
 
 /**
- * AI Analysis Service backed by a local Ollama LLM.
+ * AI Analysis Service backed by Ollama.
  *
- * Responsibilities:
- * - Send bounded prompts to local LLM
- * - Enforce structured JSON output
- * - Parse response safely
- * - Produce immutable DailyAnalysisReport
- *
- * AI is observational only.
+ * HARD GUARANTEES:
+ * - Strict HTTP timeouts
+ * - No silent hangs
+ * - No fake "error reports"
+ * - Fail fast, fail honestly
  */
 @Service
 public class AiAnalysisService {
 
+    private static final Logger log =
+            LoggerFactory.getLogger(AiAnalysisService.class);
+
     private static final ZoneId IST_ZONE = ZoneId.of("Asia/Kolkata");
-    @Value("${ai.ollama.url:http://localhost:11434/api/generate}")
+
+    @Value("${ai.ollama.url}")
     private String ollamaUrl;
 
     @Value("${ai.ollama.model:mistral}")
@@ -41,11 +45,17 @@ public class AiAnalysisService {
     private final ObjectMapper objectMapper;
 
     public AiAnalysisService() {
-        this.httpClient = HttpClient.newHttpClient();
+        this.httpClient = HttpClient.newBuilder()
+                .connectTimeout(Duration.ofSeconds(5))   // hard limit
+                .build();
+
         this.objectMapper = new ObjectMapper();
     }
 
     public DailyAnalysisReport analyze(LocalDate day, String prompt) {
+
+        long start = System.currentTimeMillis();
+        log.info("AI analysis started for day={}", day);
 
         try {
             // ---- Build request payload ----
@@ -60,16 +70,25 @@ public class AiAnalysisService {
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(ollamaUrl))
                     .header("Content-Type", "application/json")
+                    .timeout(Duration.ofSeconds(60)) // max inference wait
                     .POST(HttpRequest.BodyPublishers.ofString(requestBody))
                     .build();
 
             // ---- Call Ollama ----
+            log.info("Calling Ollama at {}", ollamaUrl);
+
             HttpResponse<String> response =
                     httpClient.send(request, HttpResponse.BodyHandlers.ofString());
 
+            log.info(
+                    "Ollama responded with status={} in {} ms",
+                    response.statusCode(),
+                    System.currentTimeMillis() - start
+            );
+
             if (response.statusCode() != 200) {
                 throw new RuntimeException(
-                        "Ollama responded with status " + response.statusCode()
+                        "Ollama HTTP " + response.statusCode()
                 );
             }
 
@@ -85,26 +104,36 @@ public class AiAnalysisService {
             JsonNode aiJson = objectMapper.readTree(aiRaw);
 
             String executiveSummary =
-                    aiJson.path("executiveSummary").asText("No executive summary generated.");
+                    aiJson.path("executiveSummary").asText();
 
+            if (executiveSummary == null || executiveSummary.isBlank()) {
+                throw new RuntimeException("Missing executiveSummary in AI output");
+            }
+
+            // ---- Extract remaining fields ----
             String userBehaviorAnalysis =
-                    aiJson.path("userBehaviorAnalysis").asText("No user behavior analysis generated.");
+                    aiJson.path("userBehaviorAnalysis").asText("");
 
             String systemBehaviorAnalysis =
-                    aiJson.path("systemBehaviorAnalysis").asText("No system behavior analysis generated.");
+                    aiJson.path("systemBehaviorAnalysis").asText("");
 
             String misconfigurationSignals =
-                    aiJson.path("misconfigurationSignals").asText("No misconfiguration signals detected.");
+                    aiJson.path("misconfigurationSignals").asText("");
 
             String analysisConfidence =
-                    aiJson.path("analysisConfidence").asText("Confidence level not provided.");
+                    aiJson.path("analysisConfidence").asText("");
 
             String analysisScopeNote =
                     aiJson.path("analysisScopeNote").asText(
                             "This analysis is limited to a single day and aggregated system data."
                     );
 
-            // ---- Build report ----
+            log.info(
+                    "AI analysis completed successfully for day={} ({} ms)",
+                    day,
+                    System.currentTimeMillis() - start
+            );
+
             return new DailyAnalysisReport(
                     day,
                     LocalDateTime.now(IST_ZONE),
@@ -117,20 +146,13 @@ public class AiAnalysisService {
             );
 
         } catch (Exception e) {
-            // ---- Fail safe ----
-            return new DailyAnalysisReport(
+            log.error(
+                    "AI analysis FAILED for day={} after {} ms",
                     day,
-                    LocalDateTime.now(IST_ZONE),
-
-                    "AI analysis failed to execute.",
-
-                    "Error while generating user behavior analysis: " + e.getMessage(),
-                    "Error while generating system behavior analysis: " + e.getMessage(),
-                    "Error while generating misconfiguration signals: " + e.getMessage(),
-
-                    "Low confidence due to AI execution failure.",
-                    "This report was generated without AI assistance due to an internal error."
+                    System.currentTimeMillis() - start,
+                    e
             );
+            throw new RuntimeException("AI analysis failed", e);
         }
     }
 }
