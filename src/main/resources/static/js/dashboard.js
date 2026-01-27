@@ -3,6 +3,13 @@
 // Global chart instance (to avoid duplicates)
 let dailyTrendChart = null;
 
+// Analysis UI state
+let analysisState = {
+    loading: false,
+    status: null, // "OK" | "NO_DATA" | "ERROR"
+    message: null
+};
+
 // Load summary metrics & trends on page load
 loadDashboardSummary();
 loadDailyTrends();
@@ -51,6 +58,21 @@ function loadDashboardSummary() {
 }
 
 function runDateWiseAnalysis(day) {
+
+    // Prevent duplicate / rapid clicks
+    if (analysisState.loading) return;
+
+    // ---- Reset state + UI immediately ----
+    analysisState = {
+        loading: true,
+        status: null,
+        message: null
+    };
+
+    resetAnalysisUI();
+    showLoadingState();
+    disableAnalyzeButton();
+
     fetch(`/internal/analysis/run?day=${day}`)
         .then(response => {
             if (!response.ok) {
@@ -59,11 +81,29 @@ function runDateWiseAnalysis(day) {
             return response.json();
         })
         .then(data => {
-            renderDateWiseAnalysis(data);
+            analysisState.loading = false;
+
+            // Defensive NO DATA handling
+            if (!data || !data.executiveSummary) {
+                analysisState.status = "NO_DATA";
+                analysisState.message = "No data available for selected date.";
+                renderNoDataMessage();
+            } else {
+                analysisState.status = "OK";
+                renderDateWiseAnalysis(data);
+            }
+
+            enableAnalyzeButton();
         })
         .catch(error => {
             console.error("Date-wise analysis error:", error);
-            renderAnalysisError("Failed to load analysis for selected date.");
+
+            analysisState.loading = false;
+            analysisState.status = "ERROR";
+            analysisState.message = "Analysis unavailable. Please try again later.";
+
+            renderAnalysisError(analysisState.message);
+            enableAnalyzeButton();
         });
 }
 
@@ -113,9 +153,7 @@ function renderDateWiseAnalysis(data) {
     const failuresEl = document.getElementById("analysisFailures");
     const sourcesEl = document.getElementById("analysisSources");
 
-    if (!summaryEl || !failuresEl || !sourcesEl) {
-        return;
-    }
+    if (!summaryEl || !failuresEl || !sourcesEl) return;
 
     summaryEl.innerHTML = `
         <p><strong>Date:</strong> ${data.day}</p>
@@ -154,7 +192,6 @@ function renderDailyTrendChart(data) {
         1 // safety floor
     );
 
-    // Destroy existing chart before re-rendering
     if (dailyTrendChart) {
         dailyTrendChart.destroy();
     }
@@ -192,14 +229,71 @@ function renderDailyTrendChart(data) {
 
 function renderAnalysisError(message) {
     const summaryEl = document.getElementById("analysisSummary");
+    const failuresEl = document.getElementById("analysisFailures");
+    const sourcesEl = document.getElementById("analysisSources");
+
+    if (summaryEl) summaryEl.innerHTML = `<p class="error">${message}</p>`;
+    if (failuresEl) failuresEl.innerHTML = "<p>—</p>";
+    if (sourcesEl) sourcesEl.innerHTML = "<p>—</p>";
+}
+
+function renderNoDataMessage() {
+    const summaryEl = document.getElementById("analysisSummary");
+    const failuresEl = document.getElementById("analysisFailures");
+    const sourcesEl = document.getElementById("analysisSources");
+
     if (summaryEl) {
-        summaryEl.innerHTML = `<p class="error">${message}</p>`;
+        summaryEl.innerHTML = `
+            <p><strong>No data available</strong></p>
+            <p>No submissions were recorded for the selected date.</p>
+        `;
+    }
+
+    if (failuresEl) failuresEl.innerHTML = "<p>—</p>";
+    if (sourcesEl) sourcesEl.innerHTML = "<p>—</p>";
+}
+
+
+// ================================
+// UI HELPERS
+// ================================
+
+function resetAnalysisUI() {
+    const summaryEl = document.getElementById("analysisSummary");
+    const failuresEl = document.getElementById("analysisFailures");
+    const sourcesEl = document.getElementById("analysisSources");
+
+    if (summaryEl) summaryEl.innerHTML = "<p>—</p>";
+    if (failuresEl) failuresEl.innerHTML = "<p>—</p>";
+    if (sourcesEl) sourcesEl.innerHTML = "<p>—</p>";
+}
+
+function showLoadingState() {
+    const summaryEl = document.getElementById("analysisSummary");
+    if (summaryEl) {
+        summaryEl.innerHTML = "<p><em>Analyzing data…</em></p>";
+    }
+}
+
+function disableAnalyzeButton() {
+    const btn = document.getElementById("runAnalysisBtn");
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Analyzing…";
+    }
+}
+
+function enableAnalyzeButton() {
+    const btn = document.getElementById("runAnalysisBtn");
+    if (btn) {
+        btn.disabled = false;
+        btn.textContent = "Analyze";
     }
 }
 
 
 // ================================
-// HELPERS
+// METRIC HELPERS
 // ================================
 
 function setMetricValue(titleText, value) {
