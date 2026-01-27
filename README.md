@@ -5,4 +5,16 @@ Tunneling local server to internet via cloudflare.
 
 Please use the link below to check try the project or check the live dashboard:
 
-https://enable-hop-tigers-choices.trycloudflare.com
+ https://item-gdp-domains-blank.trycloudflare.com
+
+Since the server is running on my laptop I need to give it a rest.
+
+Please expect a downtime from 12:30 A.M to 8 A.M.
+
+If you still need to check this project during the expected downtime range, or if you want to collaborate for a project you can reachout to me at jhaharsh101@gmail.com.
+
+Upcoming - docs - architecture.md, system-design.md, database-design.md
+
+Do reachout to me if you want any information on any part of the project.
+
+Happy Coding !
