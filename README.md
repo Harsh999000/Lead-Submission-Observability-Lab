@@ -7,7 +7,7 @@ Please use the link below to check try the project or check the live dashboard:
 
  https://item-gdp-domains-blank.trycloudflare.com
 
-Since the server is running on my laptop I need to give it a rest.
+Since the server is running on my laptop so I need to give it a rest.
 
 Please expect a downtime from 12:30 A.M to 8 A.M.
 
