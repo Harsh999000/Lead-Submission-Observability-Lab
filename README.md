@@ -5,7 +5,7 @@ Tunneling local server to internet via cloudflare.
 
 Please use the link below to check try the project or check the live dashboard:
 
- https://item-gdp-domains-blank.trycloudflare.com
+ https://california-stop-solomon-incredible.trycloudflare.com
 
 Since the server is running on my laptop so I need to give it a rest.
 
