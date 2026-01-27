@@ -3,6 +3,9 @@
 // Global chart instance (to avoid duplicates)
 let dailyTrendChart = null;
 
+// Track user-selected date explicitly
+let userSelectedDate = null;
+
 // Analysis UI state
 let analysisState = {
     loading: false,
@@ -19,23 +22,38 @@ document.addEventListener("DOMContentLoaded", () => {
     const analyzeBtn = document.getElementById("runAnalysisBtn");
     const dateInput = document.getElementById("analysisDate");
 
-    // Default date = today (ISO yyyy-mm-dd)
     if (dateInput) {
-        dateInput.value = new Date().toISOString().split("T")[0];
+        // Compute IST "today" explicitly (YYYY-MM-DD)
+        const istToday = new Intl.DateTimeFormat("en-CA", {
+            timeZone: "Asia/Kolkata",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit"
+        }).format(new Date());
+
+        // Prevent future dates
+        dateInput.max = istToday;
+
+        // Track only user intent
+        dateInput.addEventListener("change", () => {
+            userSelectedDate = dateInput.value;
+        });
     }
 
     if (analyzeBtn && dateInput) {
         analyzeBtn.addEventListener("click", () => {
-            const selectedDate = dateInput.value;
-            if (!selectedDate) {
-                alert("Please select a date (YYYY-MM-DD)");
-                return;
-            }
-            runDateWiseAnalysis(selectedDate);
+            const istToday = new Intl.DateTimeFormat("en-CA", {
+                timeZone: "Asia/Kolkata",
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+            }).format(new Date());
+
+            const dayToAnalyze = userSelectedDate || istToday;
+            runDateWiseAnalysis(dayToAnalyze);
         });
     }
 });
-
 
 // ================================
 // API CALLS
@@ -122,7 +140,6 @@ function loadDailyTrends() {
             console.error("Daily trends error:", error);
         });
 }
-
 
 // ================================
 // RENDERING
@@ -227,33 +244,6 @@ function renderDailyTrendChart(data) {
     });
 }
 
-function renderAnalysisError(message) {
-    const summaryEl = document.getElementById("analysisSummary");
-    const failuresEl = document.getElementById("analysisFailures");
-    const sourcesEl = document.getElementById("analysisSources");
-
-    if (summaryEl) summaryEl.innerHTML = `<p class="error">${message}</p>`;
-    if (failuresEl) failuresEl.innerHTML = "<p>—</p>";
-    if (sourcesEl) sourcesEl.innerHTML = "<p>—</p>";
-}
-
-function renderNoDataMessage() {
-    const summaryEl = document.getElementById("analysisSummary");
-    const failuresEl = document.getElementById("analysisFailures");
-    const sourcesEl = document.getElementById("analysisSources");
-
-    if (summaryEl) {
-        summaryEl.innerHTML = `
-            <p><strong>No data available</strong></p>
-            <p>No submissions were recorded for the selected date.</p>
-        `;
-    }
-
-    if (failuresEl) failuresEl.innerHTML = "<p>—</p>";
-    if (sourcesEl) sourcesEl.innerHTML = "<p>—</p>";
-}
-
-
 // ================================
 // UI HELPERS
 // ================================
@@ -298,7 +288,6 @@ function enableAnalyzeButton() {
         btn.textContent = "Analyze";
     }
 }
-
 
 // ================================
 // METRIC HELPERS
