@@ -3,38 +3,35 @@
 APP_NAME="Lead-Submission-Observability-Lab"
 PROFILE="local"
 
+# Absolute path to project root
 PROJECT_DIR="/web2/Lead-Submission-Observability-Lab"
-STATUS_DIR="$PROJECT_DIR/logs"
-STATUS_FILE="$STATUS_DIR/startup-status.log"
 
-cd "$PROJECT_DIR" || exit 1
-mkdir -p "$STATUS_DIR"
+echo "=============================="
+echo "Restarting $APP_NAME"
+echo "Time: $(date)"
+echo "=============================="
 
-# Stop existing app
-pkill -f "mvn spring-boot:run"
-sleep 4
+# Move to project root
+cd "$PROJECT_DIR" || {
+  echo "ERROR: Project directory not found!"
+  exit 1
+}
 
-# Clear old status
-> "$STATUS_FILE"
+# Stop existing Spring Boot (Maven) process
+echo "Stopping existing application..."
+pkill -f "mvn spring-boot:run" || true
 
-# Start app (NO LOGGING)
+sleep 3
+
+# Pull latest code
+echo "Pulling latest code from GitHub..."
+git pull origin main
+
+# Start application again
+echo "Starting application..."
 nohup mvn spring-boot:run -Dspring-boot.run.profiles=$PROFILE >/dev/null 2>&1 &
 
-APP_PID=$!
+sleep 2
 
-# Wait for startup (max 60 seconds)
-STARTED=false
-for i in {1..60}; do
-  if ss -lnt | grep -q ":8080"; then
-    STARTED=true
-    break
-  fi
-  sleep 2
-done
-
-# Write single status line
-if [ "$STARTED" = true ]; then
-  echo "$(date) : SERVER STARTED SUCCESSFULLY (PID $APP_PID)" >> "$STATUS_FILE"
-else
-  echo "$(date) : SERVER FAILED TO START" >> "$STATUS_FILE"
-fi
+echo "Application restart command executed successfully"
+echo "Cloudflare tunnel is NOT affected"

@@ -29626,3 +29626,977 @@ Hibernate:
         (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-27T21:46:15.862+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-01-27T21:46:15.862+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-01-27T21:46:15.870+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-01-27T21:46:15.877+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-01-27T21:46:15.884+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-01-27T21:46:15.887+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T21:46:15.891+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T21:46:18.478+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+Hibernate: 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+2026-01-27T21:46:18.485+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    delete 
+    from
+        daily_analysis_reports 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        daily_analysis_reports 
+    where
+        id=?
+2026-01-27T21:46:18.605+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T21:46:18.610+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T21:46:18.616+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+Hibernate: 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+2026-01-27T21:46:18.622+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+Hibernate: 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+2026-01-27T21:46:18.627+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+2026-01-27T21:46:18.632+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+2026-01-27T21:46:18.638+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+Hibernate: 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+2026-01-27T21:46:18.643+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+Hibernate: 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+2026-01-27T21:46:21.303+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-27T21:48:29.443+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-01-27T21:48:29.449+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-01-27T21:48:29.458+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-01-27T21:48:29.460+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-01-27T21:48:29.469+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-01-27T21:48:29.472+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T21:48:29.476+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T21:48:31.698+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+Hibernate: 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+2026-01-27T21:48:31.706+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    delete 
+    from
+        daily_analysis_reports 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        daily_analysis_reports 
+    where
+        id=?
+2026-01-27T21:48:31.806+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T21:48:31.825+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T21:48:31.830+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+Hibernate: 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+2026-01-27T21:48:31.836+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+Hibernate: 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+2026-01-27T21:48:31.841+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+2026-01-27T21:48:31.846+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+2026-01-27T21:48:31.852+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+Hibernate: 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+2026-01-27T21:48:31.857+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+Hibernate: 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+2026-01-27T21:48:33.429+05:30 DEBUG 1137 --- [lead-submission-lab] [io-8110-exec-45] org.hibernate.SQL                        : 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-27T21:48:38.614+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+Hibernate: 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+2026-01-27T21:48:38.620+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-27T21:48:38.624+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-27T21:48:38.629+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+Hibernate: 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+2026-01-27T21:48:38.634+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+Hibernate: 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+2026-01-27T21:48:38.639+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+2026-01-27T21:48:38.644+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+2026-01-27T21:48:38.649+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+Hibernate: 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+2026-01-27T21:48:38.654+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+Hibernate: 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+2026-01-27T21:48:39.984+05:30 DEBUG 1137 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
