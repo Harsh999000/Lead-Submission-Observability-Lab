@@ -1,123 +1,111 @@
-Lead-Submission-Observability-Lab
-Overview
+# Lead-Submission-Observability-Lab
 
-Lead Submission Observability Lab simulates lead generation from multiple sources and endpoints and produces AI-based daily summaries derived from lead submission logs.
+## Overview
 
-The system is built as an observability-first backend project, focusing on:
+**Lead Submission Observability Lab** simulates lead generation from multiple sources and endpoints and produces **AI-based daily summaries** derived from lead submission logs.
 
-Tracking real submission behavior
+The system is built as an **observability-first backend project**, focusing on:
 
-Identifying failures and anomalies
+- Tracking real submission behavior  
+- Identifying failures and anomalies  
+- Explaining system behavior using AI-assisted analysis  
 
-Explaining system behavior using AI-assisted analysis
+AI summaries are generated using **Ollama with the LLaMA 3.1 model (8B parameter variant)** and are strictly **observational in nature**.
 
-AI summaries are generated using Ollama with the LLaMA 3.1 model (8B parameter variant) and are strictly observational in nature.
+---
 
-Live Demo / Dashboard Access
+## Live Demo / Dashboard Access
 
 Please use the link below to try the project or check the live dashboard:
 
-https://smoke-violations-operates-reform.trycloudflare.com
+**https://smoke-violations-operates-reform.trycloudflare.com**
 
-Availability Note
-The server is running on my personal laptop, so availability is limited.
-
-Expected downtime:
-12:30 A.M. – 8:00 A.M.
+> **Availability Notice**  
+> The server is running on my personal laptop, so availability is limited.
+>
+> **Expected downtime:**  
+> **12:30 A.M. – 8:00 A.M.**
 
 If you need to access the project during the expected downtime window, or if you want to collaborate on a project, feel free to reach out:
 
-jhaharsh101@gmail.com
+**jhaharsh101@gmail.com**
 
 Do reach out if you want information on any part of the project.
 
-Happy Coding!
+**Happy Coding! 🚀**
 
-What This Project Does
-Lead Submission Tracking
+---
 
-Simulates lead submissions from multiple sources
+## Key Capabilities
 
-Tracks attempts, successes, and failures
+### Lead Submission Tracking
+- Simulates lead submissions from multiple sources
+- Tracks attempts, successes, and failures
+- Maintains immutable historical logs
 
-Captures per-user and per-day activity
+### Dashboard & Metrics
+- Overall system metrics
+- Day-wise submission metrics
+- Success and failure rates
+- Visual trend analysis
 
-Maintains immutable historical logs
+### AI-Based Daily Analysis
+- Date-wise summaries generated from stored logs
+- User behavior analysis
+- System behavior explanation
+- Misconfiguration signal detection
+- Confidence and scope annotations
 
-Dashboard & Metrics
+> AI does **not** mutate data or trigger automated actions.
 
-Overall system metrics
+---
 
-Day-wise submission metrics
+## Known Limitations (Current Phase)
 
-Success and failure rates
+The following limitations are known and accepted at this stage:
 
-Visual trends over recent days
+- AI analysis calls can take **20–60 seconds**
+- The system currently uses **synchronous HTTP**
+- Cloudflare combined with long-running requests can cause **silent stalls**
+- Restarting services clears **stale tunnel / connection state**
 
-AI-Based Daily Analysis
+---
 
-Generates date-wise summaries from stored logs
-
-Explains user behavior patterns
-
-Highlights system-level behavior
-
-Detects possible misconfiguration signals
-
-Includes confidence and scope notes for transparency
-
-AI does not modify data or make automated decisions.
-
-Design Philosophy
-
-Observability before optimization
-
-AI is advisory, not authoritative
-
-Past data is immutable
-
-Failures are surfaced, not hidden
-
-System behavior must be explainable
-
-Known Limitations (Current Phase)
-
-The following limitations are known and intentionally accepted at this stage:
-
-AI analysis calls can take 20–60 seconds
-
-The system currently uses synchronous HTTP for AI execution
-
-Long-running requests combined with tunnels or proxies may cause silent stalls
-
-Restarting services clears stale tunnel or connection state
-
-These are architectural constraints, not defects.
-
-Future Improvements
+## Future Improvements
 
 Planned enhancements include:
 
-Fire-and-forget AI analysis jobs
+- Fire-and-forget AI analysis jobs
+- Persisting AI execution status in the database
+- UI polling for analysis completion
+- Eliminating long-lived upstream connections
+- Full async decoupling of AI execution
 
-Persisting AI execution status in the database
+---
 
-UI polling for analysis completion
+## Documentation Roadmap
 
-Ensuring no long-lived connections are held upstream
+Upcoming documents:
 
-Full decoupling of AI execution from user-facing requests
+- `architecture.md` – system components and data flow  
+- `system-design.md` – design decisions and trade-offs  
+- `database-design.md` – schema and persistence strategy  
 
-System Overview (High-Level)
+Each document will remain **environment-agnostic** and **IP/port neutral**.
 
-Backend service handles lead ingestion, logging, aggregation, and AI orchestration
+---
 
-AI service runs independently and is accessed via HTTP
+## Project Status
 
-Dashboard UI consumes backend APIs for metrics and analysis
+The project is **stable, functional, and observable**.
 
-Analysis results are persisted and reused for immutable past dates
+All core flows are validated:
 
-Today’s data remains mutable and re-analyzable
+- Data capture  
+- Aggregation  
+- AI analysis  
+- Visualization  
 
-The system is designed to evolve toward asynchronous, resilient analysis workflows without changing core data models.
+Future work focuses on **scalability and resilience**, not correctness.
+
+---
