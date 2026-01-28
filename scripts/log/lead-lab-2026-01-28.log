@@ -1,0 +1,1113 @@
+[2026-01-28 02:59:54] ================= LEAD LAB RUN START =================
+[2026-01-28 02:59:54] START user flow: user1@demo.com
+[2026-01-28 02:59:54] START user flow: user2@demo.com
+[2026-01-28 02:59:54] REQ_ID=20443-1 USER=user2@demo.com LEAD_X=1 PAYLOAD={
+  "name": "Lead Demo 20260128 1",
+  "email": "lead_demo_20260128_1@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 02:59:54] REQ_ID=31285-1 USER=user1@demo.com LEAD_X=1 PAYLOAD={
+  "name": "Lead Demo 20260128 1",
+  "email": "lead_demo_20260128_1@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 02:59:55] REQ_ID=31285-1 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 02:59:55] REQ_ID=20443-1 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:03] REQ_ID=13012-2 USER=user1@demo.com LEAD_X=2 PAYLOAD={
+  "name": "Lead Demo 20260128 2",
+  "email": "lead_demo_20260128_2@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:03] REQ_ID=3749-2 USER=user2@demo.com LEAD_X=2 PAYLOAD={
+  "name": "Lead Demo 20260128 2",
+  "email": "lead_demo_20260128_2@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:03] REQ_ID=13012-2 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:03] REQ_ID=3749-2 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:11] REQ_ID=11654-3 USER=user1@demo.com LEAD_X=3 PAYLOAD={
+  "name": "Lead Demo 20260128 3",
+  "email": "lead_demo_20260128_3@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:11] REQ_ID=26151-3 USER=user2@demo.com LEAD_X=3 PAYLOAD={
+  "name": "Lead Demo 20260128 3",
+  "email": "lead_demo_20260128_3@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:12] REQ_ID=11654-3 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:12] REQ_ID=26151-3 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:20] REQ_ID=22103-4 USER=user1@demo.com LEAD_X=4 PAYLOAD={
+  "name": "Lead Demo 20260128 4",
+  "email": "lead_demo_20260128_4@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:20] REQ_ID=1672-4 USER=user2@demo.com LEAD_X=4 PAYLOAD={
+  "name": "Lead Demo 20260128 4",
+  "email": "lead_demo_20260128_4@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:20] REQ_ID=22103-4 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:20] REQ_ID=1672-4 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:28] REQ_ID=14489-5 USER=user1@demo.com LEAD_X=5 PAYLOAD={
+  "name": "Lead Demo 20260128 5",
+  "email": "lead_demo_20260128_5@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:28] REQ_ID=5677-5 USER=user2@demo.com LEAD_X=5 PAYLOAD={
+  "name": "Lead Demo 20260128 5",
+  "email": "lead_demo_20260128_5@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:29] REQ_ID=14489-5 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:29] REQ_ID=5677-5 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:37] REQ_ID=5896-6 USER=user1@demo.com LEAD_X=6 PAYLOAD={
+  "name": "Lead Demo 20260128 6",
+  "email": "lead_demo_20260128_6@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:37] REQ_ID=8721-6 USER=user2@demo.com LEAD_X=6 PAYLOAD={
+  "name": "Lead Demo 20260128 6",
+  "email": "lead_demo_20260128_6@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:37] REQ_ID=5896-6 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:37] REQ_ID=8721-6 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:45] REQ_ID=23581-7 USER=user1@demo.com LEAD_X=7 PAYLOAD={
+  "name": "Lead Demo 20260128 7",
+  "email": "lead_demo_20260128_7@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:45] REQ_ID=30569-7 USER=user2@demo.com LEAD_X=7 PAYLOAD={
+  "name": "Lead Demo 20260128 7",
+  "email": "lead_demo_20260128_7@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:46] REQ_ID=23581-7 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:46] REQ_ID=30569-7 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:54] REQ_ID=16121-8 USER=user1@demo.com LEAD_X=8 PAYLOAD={
+  "name": "Lead Demo 20260128 8",
+  "email": "lead_demo_20260128_8@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:54] REQ_ID=22622-8 USER=user2@demo.com LEAD_X=8 PAYLOAD={
+  "name": "Lead Demo 20260128 8",
+  "email": "lead_demo_20260128_8@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:00:54] REQ_ID=16121-8 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:00:54] REQ_ID=22622-8 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:02] REQ_ID=25141-9 USER=user1@demo.com LEAD_X=9 PAYLOAD={
+  "name": "Lead Demo 20260128 9",
+  "email": "lead_demo_20260128_9@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:02] REQ_ID=18343-9 USER=user2@demo.com LEAD_X=9 PAYLOAD={
+  "name": "Lead Demo 20260128 9",
+  "email": "lead_demo_20260128_9@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:02] REQ_ID=25141-9 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:02] REQ_ID=18343-9 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:10] REQ_ID=216-10 USER=user1@demo.com LEAD_X=10 PAYLOAD={
+  "name": "Lead Demo 20260128 10",
+  "email": "lead_demo_20260128_10@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:10] REQ_ID=27891-10 USER=user2@demo.com LEAD_X=10 PAYLOAD={
+  "name": "Lead Demo 20260128 10",
+  "email": "lead_demo_20260128_10@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:11] REQ_ID=216-10 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:11] REQ_ID=27891-10 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:19] REQ_ID=2351-11 USER=user1@demo.com LEAD_X=11 PAYLOAD={
+  "name": "Lead Demo 20260128 11",
+  "email": "lead_demo_20260128_11@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:19] REQ_ID=263-11 USER=user2@demo.com LEAD_X=11 PAYLOAD={
+  "name": "Lead Demo 20260128 11",
+  "email": "lead_demo_20260128_11@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:19] REQ_ID=2351-11 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:19] REQ_ID=263-11 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:27] REQ_ID=16246-12 USER=user1@demo.com LEAD_X=12 PAYLOAD={
+  "name": "Lead Demo 20260128 12",
+  "email": "lead_demo_20260128_12@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:27] REQ_ID=17787-12 USER=user2@demo.com LEAD_X=12 PAYLOAD={
+  "name": "Lead Demo 20260128 12",
+  "email": "lead_demo_20260128_12@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:28] REQ_ID=16246-12 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:28] REQ_ID=17787-12 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:36] REQ_ID=31181-13 USER=user1@demo.com LEAD_X=13 PAYLOAD={
+  "name": "Lead Demo 20260128 13",
+  "email": "lead_demo_20260128_13@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:36] REQ_ID=12399-13 USER=user2@demo.com LEAD_X=13 PAYLOAD={
+  "name": "Lead Demo 20260128 13",
+  "email": "lead_demo_20260128_13@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:36] REQ_ID=31181-13 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:36] REQ_ID=12399-13 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:44] REQ_ID=1174-14 USER=user1@demo.com LEAD_X=14 PAYLOAD={
+  "name": "Lead Demo 20260128 14",
+  "email": "lead_demo_20260128_14@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:44] REQ_ID=4368-14 USER=user2@demo.com LEAD_X=14 PAYLOAD={
+  "name": "Lead Demo 20260128 14",
+  "email": "lead_demo_20260128_14@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:45] REQ_ID=1174-14 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:45] REQ_ID=4368-14 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:53] REQ_ID=14059-15 USER=user1@demo.com LEAD_X=15 PAYLOAD={
+  "name": "Lead Demo 20260128 15",
+  "email": "lead_demo_20260128_15@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:53] REQ_ID=17797-15 USER=user2@demo.com LEAD_X=15 PAYLOAD={
+  "name": "Lead Demo 20260128 15",
+  "email": "lead_demo_20260128_15@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:01:53] REQ_ID=14059-15 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:01:53] REQ_ID=17797-15 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:01] REQ_ID=21653-16 USER=user1@demo.com LEAD_X=16 PAYLOAD={
+  "name": "Lead Demo 20260128 16",
+  "email": "lead_demo_20260128_16@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:01] REQ_ID=6858-16 USER=user2@demo.com LEAD_X=16 PAYLOAD={
+  "name": "Lead Demo 20260128 16",
+  "email": "lead_demo_20260128_16@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:02] REQ_ID=21653-16 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:02] REQ_ID=6858-16 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:10] REQ_ID=14612-17 USER=user1@demo.com LEAD_X=17 PAYLOAD={
+  "name": "Lead Demo 20260128 17",
+  "email": "lead_demo_20260128_17@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:10] REQ_ID=2475-17 USER=user2@demo.com LEAD_X=17 PAYLOAD={
+  "name": "Lead Demo 20260128 17",
+  "email": "lead_demo_20260128_17@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:10] REQ_ID=14612-17 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:10] REQ_ID=2475-17 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:18] REQ_ID=23794-18 USER=user1@demo.com LEAD_X=18 PAYLOAD={
+  "name": "Lead Demo 20260128 18",
+  "email": "lead_demo_20260128_18@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:18] REQ_ID=7261-18 USER=user2@demo.com LEAD_X=18 PAYLOAD={
+  "name": "Lead Demo 20260128 18",
+  "email": "lead_demo_20260128_18@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:18] REQ_ID=23794-18 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:18] REQ_ID=7261-18 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:26] REQ_ID=1617-19 USER=user1@demo.com LEAD_X=19 PAYLOAD={
+  "name": "Lead Demo 20260128 19",
+  "email": "lead_demo_20260128_19@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:27] REQ_ID=7246-19 USER=user2@demo.com LEAD_X=19 PAYLOAD={
+  "name": "Lead Demo 20260128 19",
+  "email": "lead_demo_20260128_19@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:27] REQ_ID=1617-19 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:27] REQ_ID=7246-19 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:35] REQ_ID=5788-20 USER=user1@demo.com LEAD_X=20 PAYLOAD={
+  "name": "Lead Demo 20260128 20",
+  "email": "lead_demo_20260128_20@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:35] REQ_ID=18733-20 USER=user2@demo.com LEAD_X=20 PAYLOAD={
+  "name": "Lead Demo 20260128 20",
+  "email": "lead_demo_20260128_20@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:35] REQ_ID=5788-20 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:35] REQ_ID=18733-20 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:02:43] user1@demo.com submitting 5 duplicate leads
+[2026-01-28 03:02:43] REQ_ID=28701-1 USER=user1@demo.com LEAD_X=1 PAYLOAD={
+  "name": "Lead Demo 20260128 1",
+  "email": "lead_demo_20260128_1@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:43] user2@demo.com submitting 3 duplicate leads
+[2026-01-28 03:02:43] REQ_ID=24796-1 USER=user2@demo.com LEAD_X=1 PAYLOAD={
+  "name": "Lead Demo 20260128 1",
+  "email": "lead_demo_20260128_1@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:44] REQ_ID=28701-1 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:02:44] REQ_ID=24796-1 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:02:52] REQ_ID=597-2 USER=user1@demo.com LEAD_X=2 PAYLOAD={
+  "name": "Lead Demo 20260128 2",
+  "email": "lead_demo_20260128_2@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:52] REQ_ID=11676-2 USER=user2@demo.com LEAD_X=2 PAYLOAD={
+  "name": "Lead Demo 20260128 2",
+  "email": "lead_demo_20260128_2@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:02:52] REQ_ID=597-2 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:02:52] REQ_ID=11676-2 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:03:00] REQ_ID=31528-3 USER=user1@demo.com LEAD_X=3 PAYLOAD={
+  "name": "Lead Demo 20260128 3",
+  "email": "lead_demo_20260128_3@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:00] REQ_ID=28428-3 USER=user2@demo.com LEAD_X=3 PAYLOAD={
+  "name": "Lead Demo 20260128 3",
+  "email": "lead_demo_20260128_3@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:01] REQ_ID=31528-3 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:03:01] REQ_ID=28428-3 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:03:09] REQ_ID=6745-4 USER=user1@demo.com LEAD_X=4 PAYLOAD={
+  "name": "Lead Demo 20260128 4",
+  "email": "lead_demo_20260128_4@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:09] END user flow: user2@demo.com
+[2026-01-28 03:03:09] REQ_ID=6745-4 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:03:17] REQ_ID=29292-5 USER=user1@demo.com LEAD_X=5 PAYLOAD={
+  "name": "Lead Demo 20260128 5",
+  "email": "lead_demo_20260128_5@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:17] REQ_ID=29292-5 RESPONSE={"outcome":"DUPLICATE_LEAD","message":"Lead already submitted for this page"}
+HTTP_STATUS:409
+[2026-01-28 03:03:25] END user flow: user1@demo.com
+[2026-01-28 03:03:25] RATE LIMIT BLAST for user1@demo.com (11 calls)
+[2026-01-28 03:03:25] REQ_ID=8248-RL1 USER=user1@demo.com LEAD_X=RL1 PAYLOAD={
+  "name": "Lead Demo 20260128 RL1",
+  "email": "lead_demo_20260128_RL1@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:26] REQ_ID=8248-RL1 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:27] REQ_ID=17435-RL2 USER=user1@demo.com LEAD_X=RL2 PAYLOAD={
+  "name": "Lead Demo 20260128 RL2",
+  "email": "lead_demo_20260128_RL2@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:27] REQ_ID=17435-RL2 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:28] REQ_ID=8584-RL3 USER=user1@demo.com LEAD_X=RL3 PAYLOAD={
+  "name": "Lead Demo 20260128 RL3",
+  "email": "lead_demo_20260128_RL3@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:28] REQ_ID=8584-RL3 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:29] REQ_ID=14286-RL4 USER=user1@demo.com LEAD_X=RL4 PAYLOAD={
+  "name": "Lead Demo 20260128 RL4",
+  "email": "lead_demo_20260128_RL4@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:29] REQ_ID=14286-RL4 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:30] REQ_ID=13228-RL5 USER=user1@demo.com LEAD_X=RL5 PAYLOAD={
+  "name": "Lead Demo 20260128 RL5",
+  "email": "lead_demo_20260128_RL5@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:31] REQ_ID=13228-RL5 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:32] REQ_ID=7830-RL6 USER=user1@demo.com LEAD_X=RL6 PAYLOAD={
+  "name": "Lead Demo 20260128 RL6",
+  "email": "lead_demo_20260128_RL6@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:32] REQ_ID=7830-RL6 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:33] REQ_ID=14300-RL7 USER=user1@demo.com LEAD_X=RL7 PAYLOAD={
+  "name": "Lead Demo 20260128 RL7",
+  "email": "lead_demo_20260128_RL7@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:33] REQ_ID=14300-RL7 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:34] REQ_ID=27169-RL8 USER=user1@demo.com LEAD_X=RL8 PAYLOAD={
+  "name": "Lead Demo 20260128 RL8",
+  "email": "lead_demo_20260128_RL8@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:35] REQ_ID=27169-RL8 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:36] REQ_ID=23955-RL9 USER=user1@demo.com LEAD_X=RL9 PAYLOAD={
+  "name": "Lead Demo 20260128 RL9",
+  "email": "lead_demo_20260128_RL9@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:36] REQ_ID=23955-RL9 RESPONSE={"outcome":"SUCCESS","message":"Lead submitted successfully"}
+HTTP_STATUS:200
+[2026-01-28 03:03:37] REQ_ID=25623-RL10 USER=user1@demo.com LEAD_X=RL10 PAYLOAD={
+  "name": "Lead Demo 20260128 RL10",
+  "email": "lead_demo_20260128_RL10@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:37] REQ_ID=25623-RL10 RESPONSE={"error":"RATE_LIMIT_EXCEEDED","message":"Too many requests. Please try again later."}
+HTTP_STATUS:429
+[2026-01-28 03:03:38] REQ_ID=23604-RL11 USER=user1@demo.com LEAD_X=RL11 PAYLOAD={
+  "name": "Lead Demo 20260128 RL11",
+  "email": "lead_demo_20260128_RL11@demo.com",
+  "source": "WEBSITE_FORM",
+  "finalPage": "/pricing"
+}
+[2026-01-28 03:03:38] REQ_ID=23604-RL11 RESPONSE={"error":"RATE_LIMIT_EXCEEDED","message":"Too many requests. Please try again later."}
+HTTP_STATUS:429
+[2026-01-28 03:03:39] END RATE LIMIT BLAST for user1@demo.com
+[2026-01-28 03:03:39] ================= LEAD LAB RUN END ===================
+===========================================
+STOP ALL SERVICES - Wednesday 28 January 2026 05:17:46 PM IST
+===========================================
+Stopping Cloudflare tunnel...
+===========================================
+STOP CLOUDFLARE TUNNEL - Wednesday 28 January 2026 05:17:46 PM IST
+===========================================
+Stopping Cloudflare tunnel (PID 1177)
+Cloudflare tunnel stopped
+Stopping server...
+======================================
+STOP SERVER - Wednesday 28 January 2026 05:17:54 PM IST
+======================================
+Stopping server PID 1091
+Server stopped
+All services stopped.
+===========================================
+START ALL SERVICES - Wednesday 28 January 2026 05:18:13 PM IST
+===========================================
+Starting server...
+======================================
+START SERVER - Wednesday 28 January 2026 05:18:13 PM IST
+Profile: local
+======================================
+Server started with PID 5860
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.leadsubmission.observability:lead-submission-observability-lab[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding Lead Submission Observability Lab 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 11 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /web2/Lead-Submission-Observability-Lab/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-01-28T17:18:20.977+05:30  INFO 5904 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Starting LeadSubmissionObservabilityLabApplication using Java 17.0.18 with PID 5904 (/web2/Lead-Submission-Observability-Lab/target/classes started by harsh in /web2/Lead-Submission-Observability-Lab)
+2026-01-28T17:18:20.984+05:30  INFO 5904 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : The following 1 profile is active: "local"
+2026-01-28T17:18:22.494+05:30  INFO 5904 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T17:18:22.638+05:30  INFO 5904 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 5 JPA repository interfaces.
+2026-01-28T17:18:23.664+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8110 (http)
+2026-01-28T17:18:23.686+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T17:18:23.687+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-01-28T17:18:23.789+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-28T17:18:23.791+05:30  INFO 5904 --- [lead-submission-lab] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2672 ms
+2026-01-28T17:18:24.111+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28T17:18:24.196+05:30  INFO 5904 --- [lead-submission-lab] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-01-28T17:18:24.252+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-28T17:18:24.619+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T17:18:24.662+05:30  INFO 5904 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T17:18:25.276+05:30  INFO 5904 --- [lead-submission-lab] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e151e1f
+2026-01-28T17:18:25.280+05:30  INFO 5904 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T17:18:25.369+05:30  WARN 5904 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-28T17:18:25.371+05:30  WARN 5904 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-01-28T17:18:27.156+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T17:18:27.162+05:30  INFO 5904 --- [lead-submission-lab] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T17:18:27.705+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-28T17:18:29.610+05:30  WARN 5904 --- [lead-submission-lab] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28T17:18:29.656+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-28T17:18:30.323+05:30  INFO 5904 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8110 (http) with context path ''
+2026-01-28T17:18:30.348+05:30  INFO 5904 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Started LeadSubmissionObservabilityLabApplication in 10.196 seconds (process running for 10.86)
+Starting Cloudflare tunnel...
+===========================================
+START CLOUDFLARE QUICK TUNNEL - Wednesday 28 January 2026 05:18:33 PM IST
+Port: 8110
+===========================================
+Cloudflare tunnel started in background (PID: 5963)
+2026-01-28T11:48:33Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-01-28T11:48:33Z INF Requesting new quick Tunnel on trycloudflare.com...
+WARNING: Could not detect Cloudflare URL yet (check log)
+All services started.
+2026-01-28T11:48:38Z INF +--------------------------------------------------------------------------------------------+
+2026-01-28T11:48:38Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-01-28T11:48:38Z INF |  https://smoke-violations-operates-reform.trycloudflare.com                                |
+2026-01-28T11:48:38Z INF +--------------------------------------------------------------------------------------------+
+2026-01-28T11:48:38Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-01-28T11:48:38Z INF Version 2026.1.1 (Checksum 0c3de409287cc60264cd59a285c434a243ec6d1d79ff39dc8d36b716f9dda7ef)
+2026-01-28T11:48:38Z INF GOOS: linux, GOVersion: go1.24.11, GoArch: amd64
+2026-01-28T11:48:38Z INF Settings: map[ha-connections:1 protocol:quic url:http://localhost:8110]
+2026-01-28T11:48:38Z INF cloudflared will not automatically update if installed by a package manager.
+2026-01-28T11:48:38Z INF Generated Connector ID: 36e74858-980e-4132-8019-437f1a4f1175
+2026-01-28T11:48:38Z INF Initial protocol quic
+2026-01-28T11:48:38Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-01-28T11:48:38Z INF ICMP proxy will use fe80::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-01-28T11:48:38Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1000 is not between ping group 1 to 0"
+2026-01-28T11:48:38Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026-01-28T11:48:38Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-01-28T11:48:38Z INF ICMP proxy will use fe80::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-01-28T11:48:38Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-01-28T11:48:38Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026/01/28 17:18:38 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-01-28T11:48:39Z INF Registered tunnel connection connIndex=0 connection=42253b6f-ddaf-4d3a-8477-78c433b30a81 event=0 ip=198.41.200.23 location=bom10 protocol=quic
+===========================================
+STATUS ALL SERVICES - Wednesday 28 January 2026 05:19:21 PM IST
+===========================================
+--- Server Status ---
+======================================
+STATUS CHECK - Wednesday 28 January 2026 05:19:21 PM IST
+======================================
+STATUS: RUNNING (PID 5860)
+--- Cloudflare Tunnel Status ---
+===========================================
+STATUS CLOUDFLARE TUNNEL - Wednesday 28 January 2026 05:19:21 PM IST
+===========================================
+Cloudflare status: RUNNING (PID 5963)
+Public URL: https://smoke-violations-operates-reform.trycloudflare.com
+2026-01-28T17:19:31.492+05:30  INFO 5904 --- [lead-submission-lab] [nio-8110-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T17:19:31.493+05:30  INFO 5904 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T17:19:31.495+05:30  INFO 5904 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-28T17:19:34.430+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-01-28T17:19:34.431+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-01-28T17:19:34.492+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-01-28T17:19:34.508+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-01-28T17:19:34.543+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-01-28T17:19:34.555+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-28T17:19:34.568+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-28T17:19:38.537+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+Hibernate: 
+    select
+        dare1_0.id,
+        dare1_0.analysis_confidence,
+        dare1_0.analysis_scope_note,
+        dare1_0.day,
+        dare1_0.executive_summary,
+        dare1_0.generated_at,
+        dare1_0.misconfiguration_signals,
+        dare1_0.system_behavior_analysis,
+        dare1_0.user_behavior_analysis 
+    from
+        daily_analysis_reports dare1_0 
+    where
+        dare1_0.day=?
+2026-01-28T17:19:38.608+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    delete 
+    from
+        daily_analysis_reports 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        daily_analysis_reports 
+    where
+        id=?
+2026-01-28T17:19:38.741+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-28T17:19:38.751+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-01-28T17:19:38.772+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+Hibernate: 
+    select
+        lsl1_0.failure_reason,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.outcome='FAILED' 
+    group by
+        lsl1_0.failure_reason
+2026-01-28T17:19:38.819+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+Hibernate: 
+    select
+        lsl1_0.user_email,
+        count(lsl1_0.id),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.user_email 
+    having
+        count(lsl1_0.id)>=?
+2026-01-28T17:19:38.840+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.source
+2026-01-28T17:19:38.856+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+Hibernate: 
+    select
+        lsl1_0.source,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='DUPLICATE_LEAD' 
+    group by
+        lsl1_0.source
+2026-01-28T17:19:38.870+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+Hibernate: 
+    select
+        lsl1_0.final_page,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+        and lsl1_0.failure_reason='RATE_LIMIT_EXCEEDED' 
+    group by
+        lsl1_0.final_page
+2026-01-28T17:19:38.886+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+Hibernate: 
+    select
+        date_format(lsl1_0.created_at, '%Y-%m-%d %H:%i'),
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        1
+2026-01-28T17:19:38.909+05:30  INFO 5904 --- [lead-submission-lab] [io-8110-exec-10] c.l.o.a.service.AiAnalysisService        : AI analysis started for day=2026-01-28
+2026-01-28T17:19:38.920+05:30  INFO 5904 --- [lead-submission-lab] [io-8110-exec-10] c.l.o.a.service.AiAnalysisService        : Calling Ollama at http://192.168.0.194:11434/api/generate
+2026-01-28T17:19:56.131+05:30  INFO 5904 --- [lead-submission-lab] [io-8110-exec-10] c.l.o.a.service.AiAnalysisService        : Ollama responded with status=200 in 17222 ms
+2026-01-28T17:19:56.170+05:30  INFO 5904 --- [lead-submission-lab] [io-8110-exec-10] c.l.o.a.service.AiAnalysisService        : AI analysis completed successfully for day=2026-01-28 (17261 ms)
+2026-01-28T17:19:56.184+05:30 DEBUG 5904 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        daily_analysis_reports
+        (analysis_confidence, analysis_scope_note, day, executive_summary, generated_at, misconfiguration_signals, system_behavior_analysis, user_behavior_analysis) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-28T17:39:52.998+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-01-28T17:39:53.065+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-01-28T17:39:53.079+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-01-28T17:39:53.094+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-01-28T17:39:53.105+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-01-28T17:39:53.110+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-01-28T17:39:53.117+05:30 DEBUG 5904 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome

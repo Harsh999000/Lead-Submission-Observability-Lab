@@ -5,7 +5,7 @@ Tunneling local server to internet via cloudflare.
 
 Please use the link below to check try the project or check the live dashboard:
 
- https://california-stop-solomon-incredible.trycloudflare.com
+https://smoke-violations-operates-reform.trycloudflare.com
 
 Since the server is running on my laptop so I need to give it a rest.
 
