@@ -12,8 +12,6 @@ The system is built as an **submission behaviour backend project**, focusing on:
 
 AI summaries are generated using **Ollama with the LLaMA 3.1 model (8B parameter variant)** and are strictly **observational in nature**.
 
-- Current Downtime till 2 P.M, 29-01-2026, possibly can extend till 30-01-2026. Please do reachout to me on **jhaharsh101@gmail.com**, if you want to check this during this timeperiod.
-
 ---
 
 ## Live Demo / Dashboard Access
