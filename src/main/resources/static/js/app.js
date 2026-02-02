@@ -2,14 +2,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const API_BASE_URL = "";
 
+    /**
+     * -----------------------------------------
+     * PAGE VISIT TRACKING (SILENT)
+     * -----------------------------------------
+     */
+    try {
+        fetch(`${API_BASE_URL}/api/track-visit`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                page: window.location.pathname
+            })
+        }).catch(() => {
+            // Intentionally ignored: visit tracking must never affect UX
+        });
+    } catch (e) {
+        // Safety net: never let tracking break the page
+    }
+
+    /**
+     * -----------------------------------------
+     * LEAD SUBMISSION LOGIC
+     * -----------------------------------------
+     */
     const form = document.getElementById("leadForm");
     const responseBox = document.getElementById("responseBox");
-    const submitButton = form.querySelector("button[type='submit']");
+    const submitButton = form?.querySelector("button[type='submit']");
 
     let autoClearTimer = null;
 
+    // This page might not always have the form (future reuse)
     if (!form || !responseBox || !submitButton) {
-        console.error("Required DOM elements missing");
         return;
     }
 
@@ -95,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 if (data && data.error === "RATE_LIMIT_EXCEEDED") {
-                    message +='s Try again in 60 seconds.';
+                    message += " Try again in 60 seconds.";
                 }
 
                 showResponse(`❌ ${message}`, "error");
@@ -104,8 +130,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             showResponse(`✅ ${data.message}`, "success");
             form.reset();
-
-            // Auto-clear only on success
             scheduleAutoClear();
 
         } catch (err) {
