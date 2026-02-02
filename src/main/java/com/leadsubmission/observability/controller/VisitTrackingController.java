@@ -29,12 +29,19 @@ public class VisitTrackingController {
     }
 
     private String extractClientIp(HttpServletRequest request) {
-        String forwardedFor = request.getHeader("X-Forwarded-For");
+        // 1. Cloudflare tunnel
+        String cfIp = request.getHeader("CF-Connecting-IP");
+        if (cfIp != null && !cfIp.isBlank()) {
+            return cfIp.trim();
+        }
 
+        // 2. Standard reverse proxy
+        String forwardedFor = request.getHeader("X-Forwarded-For");
         if (forwardedFor != null && !forwardedFor.isBlank()) {
             return forwardedFor.split(",")[0].trim();
         }
 
+        // 3. Fallback
         return request.getRemoteAddr();
     }
 }
