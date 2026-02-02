@@ -3,6 +3,7 @@ package com.leadsubmission.observability.controller;
 import com.leadsubmission.observability.dto.TrackVisitRequest;
 import com.leadsubmission.observability.service.PageVisitLogService;
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,14 +23,23 @@ public class VisitTrackingController {
             HttpServletRequest httpRequest
     ) {
         String ipAddress = extractClientIp(httpRequest);
-        pageVisitLogService.logVisit(ipAddress, request.getPage());
+        String page = request.getPage();
 
-        System.out.println("TRACK_VISIT HIT | IP=" + ipAddress + " | PAGE=" + request.getPage());
-        return ResponseEntity.ok().build();
+        // Persist visit
+        pageVisitLogService.logVisit(ipAddress, page);
+
+        // Custom debug headers (Cloudflare-safe)
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("X-Visit-Tracked", "true");
+        headers.add("X-Visit-Page", page != null ? page : "null");
+        headers.add("X-Visit-IP", ipAddress);
+        headers.add("X-Visit-Proxy", detectProxy(httpRequest));
+
+        return ResponseEntity.ok().headers(headers).build();
     }
 
     private String extractClientIp(HttpServletRequest request) {
-        // 1. Cloudflare tunnel
+        // 1. Cloudflare Tunnel / CDN
         String cfIp = request.getHeader("CF-Connecting-IP");
         if (cfIp != null && !cfIp.isBlank()) {
             return cfIp.trim();
@@ -43,5 +53,15 @@ public class VisitTrackingController {
 
         // 3. Fallback
         return request.getRemoteAddr();
+    }
+
+    private String detectProxy(HttpServletRequest request) {
+        if (request.getHeader("CF-Connecting-IP") != null) {
+            return "cloudflare";
+        }
+        if (request.getHeader("X-Forwarded-For") != null) {
+            return "reverse-proxy";
+        }
+        return "direct";
     }
 }
