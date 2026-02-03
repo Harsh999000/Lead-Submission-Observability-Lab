@@ -50,6 +50,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }).format(new Date());
 
             const dayToAnalyze = userSelectedDate || istToday;
+
+            // ------------------------------------------------
+            // OBSERVABILITY: log Analyze button click
+            // ------------------------------------------------
+            fetch("/api/track-visit", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    page: "/analyze"
+                })
+            }).catch(() => {
+                // Fire-and-forget: must never block analysis
+            });
+
             runDateWiseAnalysis(dayToAnalyze);
         });
     }
