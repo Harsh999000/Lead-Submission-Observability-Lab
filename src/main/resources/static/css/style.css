@@ -85,10 +85,19 @@ h1 {
 }
 
 .subtitle {
-    font-size: 0.95rem;
-    color: #666;
-    margin-bottom: 2rem;
+    color: #000000;
+    margin-bottom: 16px;
+    font-size: 0.90rem;
     text-align: center;
+}
+
+.subtitle a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.subtitle a:hover {
+    text-decoration: underline;
 }
 
 /* Form */
@@ -179,6 +188,7 @@ button:hover {
 .new-user-link {
     margin-top: 16px;
     margin-bottom: 24px;
+    font-size: 0.90rem;
     text-align: center;
 }
 
