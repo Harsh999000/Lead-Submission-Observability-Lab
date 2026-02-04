@@ -12870,3 +12870,4096 @@ Hibernate:
         window_start=? 
     where
         user_id=?
+===========================================
+STOP ALL SERVICES - Wednesday 04 February 2026 06:10:07 PM IST
+===========================================
+Stopping Cloudflare tunnel...
+===========================================
+STOP CLOUDFLARE TUNNEL - Wednesday 04 February 2026 06:10:07 PM IST
+===========================================
+Stopping Cloudflare tunnel (PID 1176)
+Cloudflare tunnel stopped
+Stopping server...
+======================================
+STOP SERVER - Wednesday 04 February 2026 06:10:15 PM IST
+======================================
+Stopping server PID 1077
+Server stopped
+All services stopped.
+===========================================
+START ALL SERVICES - Wednesday 04 February 2026 06:10:25 PM IST
+===========================================
+Starting server...
+======================================
+START SERVER - Wednesday 04 February 2026 06:10:25 PM IST
+Profile: local
+======================================
+Server started with PID 3443
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--< [0;36mcom.leadsubmission.observability:lead-submission-observability-lab[0;1m >--[m
+[[1;34mINFO[m] [1mBuilding Lead Submission Observability Lab 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 11 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /web2/Lead-Submission-Observability-Lab/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mlead-submission-observability-lab[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m @ [36mlead-submission-observability-lab[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-02-04T18:10:33.581+05:30  INFO 3488 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Starting LeadSubmissionObservabilityLabApplication using Java 17.0.18 with PID 3488 (/web2/Lead-Submission-Observability-Lab/target/classes started by harsh in /web2/Lead-Submission-Observability-Lab)
+2026-02-04T18:10:33.587+05:30  INFO 3488 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : The following 1 profile is active: "local"
+2026-02-04T18:10:35.068+05:30  INFO 3488 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-04T18:10:35.216+05:30  INFO 3488 --- [lead-submission-lab] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 6 JPA repository interfaces.
+2026-02-04T18:10:36.217+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8110 (http)
+2026-02-04T18:10:36.238+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-04T18:10:36.239+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-02-04T18:10:36.337+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-04T18:10:36.339+05:30  INFO 3488 --- [lead-submission-lab] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2626 ms
+2026-02-04T18:10:36.650+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-04T18:10:36.734+05:30  INFO 3488 --- [lead-submission-lab] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-04T18:10:36.788+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-04T18:10:37.153+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-04T18:10:37.196+05:30  INFO 3488 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-04T18:10:37.799+05:30  INFO 3488 --- [lead-submission-lab] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26bb92e2
+2026-02-04T18:10:37.803+05:30  INFO 3488 --- [lead-submission-lab] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-04T18:10:37.892+05:30  WARN 3488 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-04T18:10:37.894+05:30  WARN 3488 --- [lead-submission-lab] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-02-04T18:10:39.715+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-04T18:10:39.720+05:30  INFO 3488 --- [lead-submission-lab] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-04T18:10:40.236+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-04T18:10:42.142+05:30  WARN 3488 --- [lead-submission-lab] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-04T18:10:42.188+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-02-04T18:10:42.854+05:30  INFO 3488 --- [lead-submission-lab] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8110 (http) with context path ''
+2026-02-04T18:10:42.877+05:30  INFO 3488 --- [lead-submission-lab] [           main] eadSubmissionObservabilityLabApplication : Started LeadSubmissionObservabilityLabApplication in 10.102 seconds (process running for 10.746)
+Starting Cloudflare tunnel...
+===========================================
+START CLOUDFLARE QUICK TUNNEL - Wednesday 04 February 2026 06:10:45 PM IST
+Port: 8110
+===========================================
+Cloudflare tunnel started in background (PID: 3547)
+2026-02-04T12:40:46Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-02-04T12:40:46Z INF Requesting new quick Tunnel on trycloudflare.com...
+Cloudflare public URL:
+https://combine-substantial-till-isa.trycloudflare.com
+All services started.
+2026-02-04T12:40:52Z INF +--------------------------------------------------------------------------------------------+
+2026-02-04T12:40:52Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-02-04T12:40:52Z INF |  https://francis-lion-bar-benchmark.trycloudflare.com                                      |
+2026-02-04T12:40:52Z INF +--------------------------------------------------------------------------------------------+
+2026-02-04T12:40:52Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-02-04T12:40:52Z INF Version 2026.1.1 (Checksum 0c3de409287cc60264cd59a285c434a243ec6d1d79ff39dc8d36b716f9dda7ef)
+2026-02-04T12:40:52Z INF GOOS: linux, GOVersion: go1.24.11, GoArch: amd64
+2026-02-04T12:40:52Z INF Settings: map[ha-connections:1 protocol:quic url:http://localhost:8110]
+2026-02-04T12:40:52Z INF cloudflared will not automatically update if installed by a package manager.
+2026-02-04T12:40:52Z INF Generated Connector ID: ab96f8fa-c60c-4490-8b5b-2b6f557c5748
+2026-02-04T12:40:52Z INF Initial protocol quic
+2026-02-04T12:40:52Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-02-04T12:40:52Z INF ICMP proxy will use fe80::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-02-04T12:40:52Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 1000 is not between ping group 1 to 0"
+2026-02-04T12:40:52Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026-02-04T12:40:52Z INF ICMP proxy will use 192.168.0.184 as source for IPv4
+2026-02-04T12:40:52Z INF ICMP proxy will use fe80::461c:a8ff:fe26:9741 in zone wlp2s0 as source for IPv6
+2026-02-04T12:40:52Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-02-04T12:40:52Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026/02/04 18:10:52 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-02-04T12:40:53Z INF Registered tunnel connection connIndex=0 connection=b4485d9c-cdc9-4d39-be2c-0a6cbe86f4c6 event=0 ip=198.41.200.13 location=bom12 protocol=quic
+===========================================
+STATUS ALL SERVICES - Wednesday 04 February 2026 06:11:03 PM IST
+===========================================
+--- Server Status ---
+======================================
+STATUS CHECK - Wednesday 04 February 2026 06:11:03 PM IST
+======================================
+STATUS: RUNNING (PID 3443)
+--- Cloudflare Tunnel Status ---
+===========================================
+STATUS CLOUDFLARE TUNNEL - Wednesday 04 February 2026 06:11:03 PM IST
+===========================================
+Cloudflare status: RUNNING (PID 3547)
+Public URL: https://francis-lion-bar-benchmark.trycloudflare.com
+2026-02-04T18:11:11.085+05:30  INFO 3488 --- [lead-submission-lab] [nio-8110-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-04T18:11:11.085+05:30  INFO 3488 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-04T18:11:11.087+05:30  INFO 3488 --- [lead-submission-lab] [nio-8110-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+LOGGING VISIT TO DB
+2026-02-04T18:11:12.092+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:11:44.978+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:11:45.103+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:11:45.104+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:11:45.124+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:11:45.139+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:11:45.162+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:11:45.176+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:11:45.189+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:11:47.161+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:11:47.193+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+2026-02-04T18:11:47.193+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:11:47.193+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:11:48.429+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:11:48.433+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:11:48.440+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:11:48.446+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:11:48.462+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:11:48.472+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:11:48.480+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:11:48.488+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:12:05.038+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:12:05.043+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:12:05.043+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:12:05.057+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:12:05.070+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:12:05.080+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:12:05.087+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:12:05.096+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:12:09.473+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:12:10.818+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:12:10.821+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:12:10.825+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:12:10.838+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:12:10.851+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:12:10.861+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:12:10.869+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:12:10.879+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-02-04T18:12:11.553+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:12:11.557+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+2026-02-04T18:12:11.566+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:12:11.605+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:12:12.417+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:12:13.171+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+LOGGING VISIT TO DB
+2026-02-04T18:12:13.179+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:12:13.183+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:12:13.200+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:12:13.213+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:12:13.228+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:12:13.236+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:12:13.270+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-02-04T18:12:17.706+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:12:17.713+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+LOGGING VISIT TO DB
+2026-02-04T18:12:17.725+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:12:17.726+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:12:17.741+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:12:17.752+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:12:17.761+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:12:17.768+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:13:08.661+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:11.495+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+LOGGING VISIT TO DB
+2026-02-04T18:13:11.505+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:13:11.508+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:13:11.510+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:11.520+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:13:11.530+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:13:11.537+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:13:11.546+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:13:41.108+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:43.707+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:44.401+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:44.684+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:44.910+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:45.092+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:45.279+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:48.173+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:49.019+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:50.544+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:50.727+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:51.968+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:13:51.968+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+LOGGING VISIT TO DB
+2026-02-04T18:13:51.981+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:51.981+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:13:51.994+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:13:52.003+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:13:52.011+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:13:52.020+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-02-04T18:13:53.272+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:13:53.293+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+2026-02-04T18:13:53.293+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:13:53.299+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:13:54.593+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:56.011+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:13:56.017+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:56.019+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:13:56.036+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:13:56.862+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:13:56.865+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:13:56.867+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+2026-02-04T18:13:56.859+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:13:58.147+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:04.266+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+2026-02-04T18:14:04.274+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:14:04.288+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:04.289+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:14:06.865+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:14:06.867+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:14:06.870+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:06.876+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:14:06.887+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:14:06.896+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:14:06.903+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:14:06.911+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:14:41.743+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:42.938+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:43.717+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:43.942+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:44.148+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:44.331+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T12:44:44Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8110
+2026-02-04T12:44:44Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://francis-lion-bar-benchmark.trycloudflare.com/api/track-visit event=0 ip=198.41.200.13 type=http
+LOGGING VISIT TO DB
+2026-02-04T18:14:44.518+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:44.699+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:44.868+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:45.070+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:45.755+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:45.759+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:14:45.763+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:14:45.771+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:14:45.780+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:14:45.788+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:14:45.796+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:14:45.803+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-02-04T18:14:51.110+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+2026-02-04T18:14:51.124+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:14:51.135+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+2026-02-04T18:14:51.139+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+LOGGING VISIT TO DB
+2026-02-04T18:14:52.363+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:52.365+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:14:52.366+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:14:52.375+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:14:52.385+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:14:52.394+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:14:52.400+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:14:52.407+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-02-04T18:14:53.257+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:14:53.267+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+2026-02-04T18:14:53.271+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:53.271+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:14:54.376+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:55.394+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:14:55.401+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:55.402+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:14:55.424+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+2026-02-04T18:14:56.659+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+LOGGING VISIT TO DB
+2026-02-04T18:14:56.682+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:14:56.697+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:14:56.704+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:14:56.713+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:14:56.720+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:14:56.727+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:14:56.734+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:15:00.349+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:01.192+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+LOGGING VISIT TO DB
+2026-02-04T18:15:01.198+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:01.198+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:15:01.207+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:15:01.216+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:15:01.225+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:15:01.231+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:15:01.239+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:15:02.072+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:02.855+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+LOGGING VISIT TO DB
+2026-02-04T18:15:02.865+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:02.868+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:15:02.871+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:15:02.876+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:15:02.911+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:15:02.916+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:15:02.922+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:15:04.220+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:04.223+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.created_at,
+        l1_0.lead_email,
+        l1_0.final_page,
+        l1_0.lead_name,
+        l1_0.source,
+        l1_0.submitted_by_user_id 
+    from
+        leads l1_0 
+    order by
+        l1_0.created_at desc
+2026-02-04T18:15:04.223+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    order by
+        u1_0.created_at desc
+2026-02-04T18:15:04.245+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+Hibernate: 
+    select
+        lsl1_0.id,
+        lsl1_0.created_at,
+        lsl1_0.failure_reason,
+        lsl1_0.final_page,
+        lsl1_0.lead_email,
+        lsl1_0.lead_name,
+        lsl1_0.outcome,
+        lsl1_0.source,
+        lsl1_0.user_email,
+        lsl1_0.user_id 
+    from
+        lead_submission_logs lsl1_0 
+    order by
+        lsl1_0.created_at desc
+LOGGING VISIT TO DB
+2026-02-04T18:15:06.257+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:08.148+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:15:08.156+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+LOGGING VISIT TO DB
+2026-02-04T18:15:08.165+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:08.165+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:15:08.174+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:15:08.181+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:15:08.188+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+2026-02-04T18:15:08.199+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+LOGGING VISIT TO DB
+2026-02-04T18:15:11.898+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:12.837+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+LOGGING VISIT TO DB
+2026-02-04T18:15:12.858+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:12.861+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+2026-02-04T18:15:12.869+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:15:12.878+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:15:12.886+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:15:12.894+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:15:12.903+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:15:14.063+05:30 DEBUG 3488 --- [lead-submission-lab] [io-8110-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:15.134+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+LOGGING VISIT TO DB
+2026-02-04T18:15:15.142+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:15.147+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-4] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:15:15.148+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:15:15.156+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:15:15.164+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:15:15.171+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:15:15.180+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-7] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:15:15.745+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:17.410+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+LOGGING VISIT TO DB
+2026-02-04T18:15:17.417+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+2026-02-04T18:15:17.419+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        leads l1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        leads l1_0
+2026-02-04T18:15:17.423+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-3] org.hibernate.SQL                        : 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+Hibernate: 
+    select
+        date(lsl1_0.created_at),
+        sum(case 
+            when lsl1_0.outcome='SUCCESS' 
+                then 1 
+            else 0 
+        end),
+        sum(case 
+            when lsl1_0.outcome='FAILED' 
+                then 1 
+            else 0 
+        end) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+    group by
+        1 
+    order by
+        1
+2026-02-04T18:15:17.429+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        lead_submission_logs lsl1_0
+2026-02-04T18:15:17.437+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.outcome='SUCCESS'
+2026-02-04T18:15:17.443+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+Hibernate: 
+    select
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<?
+2026-02-04T18:15:17.451+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-6] org.hibernate.SQL                        : 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+Hibernate: 
+    select
+        lsl1_0.outcome,
+        count(lsl1_0.id) 
+    from
+        lead_submission_logs lsl1_0 
+    where
+        lsl1_0.created_at>=? 
+        and lsl1_0.created_at<? 
+    group by
+        lsl1_0.outcome
+LOGGING VISIT TO DB
+2026-02-04T18:15:18.266+05:30 DEBUG 3488 --- [lead-submission-lab] [nio-8110-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        page_visit_logs
+        (ip_address, page_path, visited_at) 
+    values
+        (?, ?, ?)
