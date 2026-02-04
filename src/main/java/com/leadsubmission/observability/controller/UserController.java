@@ -2,7 +2,9 @@ package com.leadsubmission.observability.controller;
 
 import com.leadsubmission.observability.service.UserService;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/users")
@@ -15,10 +17,13 @@ public class UserController {
     }
 
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public void createUser(@RequestBody CreateUserRequest request) {
+    public ResponseEntity<?> createUser(@RequestBody CreateUserRequest request) {
         userService.createUser(request.getEmail(), request.getPassword());
+        return ResponseEntity
+                .status(HttpStatus.CREATED)
+                .body(Map.of("message", "User created successfully"));
     }
+
 
     @DeleteMapping("/{email}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
