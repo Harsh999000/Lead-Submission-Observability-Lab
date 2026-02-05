@@ -29,6 +29,7 @@ Please use the link below to try the project or check the live dashboard:
 >
 > **Expected downtime:**  
 > **12:30 A.M. – 10:00 A.M. IST**
+> **Server Currently Down**
 
 If you need to access the project during the expected downtime window, or if you want to collaborate on a project, feel free to reach out:
 
