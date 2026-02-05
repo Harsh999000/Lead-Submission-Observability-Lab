@@ -18,7 +18,7 @@ AI summaries are generated using **Ollama with the LLaMA 3.1 model (8B parameter
 
 Please use the link below to try the project or check the live dashboard:
 
-**https://fabric-images-activity-frankfurt.trycloudflare.com**
+**https://exist-office-pure-puzzle.trycloudflare.com**
 
 ## Live Demo / Dashboard Access
 - For a quick check on database and AI Analysis Flow you can check pdf of flow in draw.io_files, and you can also use xml files to import the design in draw.io
@@ -29,7 +29,6 @@ Please use the link below to try the project or check the live dashboard:
 >
 > **Expected downtime:**  
 > **12:30 A.M. – 10:00 A.M. IST**
-> **Server Currently Down**
 
 If you need to access the project during the expected downtime window, or if you want to collaborate on a project, feel free to reach out:
 
